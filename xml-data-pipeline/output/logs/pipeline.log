@@ -1,0 +1,296 @@
+2026-04-25 14:58:58,416 - INFO - Pipeline started
+2026-04-25 14:58:58,419 - INFO - Validation successful
+2026-04-25 14:58:58,422 - INFO - HTML report generated
+2026-04-25 14:58:58,424 - INFO - JSON export generated
+2026-04-25 14:58:58,424 - INFO - Pipeline completed successfully
+2026-04-25 15:22:26,446 - INFO - Pipeline started
+2026-04-25 15:22:26,450 - ERROR - Pipeline failed: file:/C:/Users/duttr/xml-data-pipeline/data/club.xml:55:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'booking': Missing child element(s). Expected is ( date ).
+2026-04-25 15:25:52,954 - INFO - Pipeline started
+2026-04-25 15:25:52,957 - INFO - Validation successful
+2026-04-25 15:25:52,958 - ERROR - Pipeline failed: [Errno 2] No such file or directory: 'xslt/scenario1_members.xsl'
+2026-04-25 15:29:01,459 - INFO - Pipeline started
+2026-04-25 15:29:01,463 - INFO - Validation successful
+2026-04-25 15:29:01,464 - ERROR - Pipeline failed: [Errno 2] No such file or directory: 'xslt/scenario1_members.xsl'
+2026-04-25 15:32:19,342 - INFO - Pipeline started
+2026-04-25 15:32:19,346 - INFO - Validation successful
+2026-04-25 15:32:19,346 - ERROR - Pipeline failed: [Errno 2] No such file or directory: 'xslt/scenario1_members.xsl'
+2026-04-25 15:35:09,451 - INFO - Pipeline started
+2026-04-25 15:35:09,455 - INFO - Validation successful
+2026-04-25 15:35:09,458 - INFO - Generated HTML: output/html/members.html
+2026-04-25 15:35:09,458 - ERROR - Missing XSLT file: xslt/scenario2_coaches.xsl
+2026-04-25 15:35:09,460 - INFO - Generated JSON: output/json/members.json
+2026-04-25 15:35:09,483 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 15:35:09,484 - INFO - Pipeline completed successfully
+2026-04-25 15:40:58,829 - INFO - Pipeline started
+2026-04-25 15:40:58,832 - INFO - Validation successful
+2026-04-25 15:40:58,835 - INFO - Generated HTML: output/html/members.html
+2026-04-25 15:40:58,857 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 15:40:58,862 - INFO - Generated JSON: output/json/members.json
+2026-04-25 15:40:58,864 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 15:40:58,865 - INFO - Pipeline completed successfully
+2026-04-25 15:52:38,477 - INFO - Pipeline started
+2026-04-25 15:52:38,478 - INFO - Validation successful
+2026-04-25 15:52:38,479 - INFO - Generated HTML: output/html/members.html
+2026-04-25 15:52:38,480 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 15:52:38,481 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 15:52:38,482 - INFO - Generated JSON: output/json/members.json
+2026-04-25 15:52:38,483 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 15:52:38,483 - INFO - Pipeline completed successfully
+2026-04-25 15:58:23,810 - INFO - Pipeline started
+2026-04-25 15:58:23,811 - INFO - Validation successful
+2026-04-25 15:58:23,812 - INFO - Generated HTML: output/html/members.html
+2026-04-25 15:58:23,813 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 15:58:23,814 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 15:58:23,815 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 15:58:23,815 - INFO - Generated JSON: output/json/members.json
+2026-04-25 15:58:23,816 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 15:58:23,816 - INFO - Pipeline completed successfully
+2026-04-25 16:03:23,398 - INFO - Pipeline started
+2026-04-25 16:03:23,400 - INFO - Validation successful
+2026-04-25 16:03:23,401 - INFO - Generated HTML: output/html/members.html
+2026-04-25 16:03:23,402 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 16:03:23,402 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 16:03:23,403 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 16:03:23,404 - INFO - Generated JSON: output/json/members.json
+2026-04-25 16:03:23,405 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 16:03:23,405 - INFO - Pipeline completed successfully
+2026-04-25 16:07:01,048 - INFO - Pipeline started
+2026-04-25 16:07:01,049 - INFO - Validation successful
+2026-04-25 16:07:01,051 - INFO - Generated HTML: output/html/members.html
+2026-04-25 16:07:01,052 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 16:07:01,053 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 16:07:01,053 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 16:07:01,054 - INFO - Generated JSON: output/json/members.json
+2026-04-25 16:07:01,055 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 16:07:01,055 - INFO - Pipeline completed successfully
+2026-04-25 16:10:48,533 - INFO - Pipeline started
+2026-04-25 16:10:48,535 - INFO - Validation successful
+2026-04-25 16:10:48,536 - INFO - Generated HTML: output/html/members.html
+2026-04-25 16:10:48,542 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 16:10:48,544 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 16:10:48,545 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 16:10:48,546 - INFO - Generated JSON: output/json/members.json
+2026-04-25 16:10:48,547 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 16:10:48,547 - INFO - Pipeline completed successfully
+2026-04-25 16:13:15,328 - INFO - Pipeline started
+2026-04-25 16:13:15,330 - INFO - Validation successful
+2026-04-25 16:13:15,331 - INFO - Generated HTML: output/html/members.html
+2026-04-25 16:13:15,332 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 16:13:15,332 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 16:13:15,333 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 16:13:15,334 - INFO - Generated HTML: output/html/facilities.html
+2026-04-25 16:13:15,335 - INFO - Generated JSON: output/json/members.json
+2026-04-25 16:13:15,335 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 16:13:15,335 - INFO - Pipeline completed successfully
+2026-04-25 16:18:16,467 - INFO - Pipeline started
+2026-04-25 16:18:16,468 - ERROR - Pipeline failed: file:/C:/Users/duttr/xml-data-pipeline/data/club.xml:50:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'type': This element is not expected.
+2026-04-25 16:20:18,099 - INFO - Pipeline started
+2026-04-25 16:20:18,100 - ERROR - Pipeline failed: Element '{http://www.w3.org/2001/XMLSchema}sequence': The content is not valid. Expected is (annotation?, (element | group | choice | sequence | any)*)., line 7
+2026-04-25 16:22:44,180 - INFO - Pipeline started
+2026-04-25 16:22:44,182 - INFO - Validation successful
+2026-04-25 16:22:44,183 - INFO - Generated HTML: output/html/members.html
+2026-04-25 16:22:44,184 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 16:22:44,185 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 16:22:44,185 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 16:22:44,186 - INFO - Generated HTML: output/html/facilities.html
+2026-04-25 16:22:44,187 - INFO - Generated JSON: output/json/members.json
+2026-04-25 16:22:44,187 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 16:22:44,188 - INFO - Pipeline completed successfully
+2026-04-25 16:31:08,779 - INFO - Pipeline started
+2026-04-25 16:31:08,780 - INFO - Validation successful
+2026-04-25 16:31:08,781 - INFO - Generated HTML: output/html/members.html
+2026-04-25 16:31:08,782 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 16:31:08,783 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 16:31:08,784 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 16:31:08,784 - INFO - Generated HTML: output/html/facilities.html
+2026-04-25 16:31:08,785 - ERROR - Pipeline failed: XML declaration allowed only at the start of the document, line 56, column 23 (scenario6_bookings.xsl, line 56)
+2026-04-25 16:33:59,972 - INFO - Pipeline started
+2026-04-25 16:33:59,974 - INFO - Validation successful
+2026-04-25 16:33:59,975 - INFO - Generated HTML: output/html/members.html
+2026-04-25 16:33:59,976 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 16:33:59,976 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 16:33:59,977 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 16:33:59,978 - INFO - Generated HTML: output/html/facilities.html
+2026-04-25 16:33:59,978 - ERROR - Pipeline failed: Premature end of data in tag stylesheet line 3, line 111, column 18 (scenario6_bookings.xsl, line 111)
+2026-04-25 16:36:29,106 - INFO - Pipeline started
+2026-04-25 16:36:29,107 - INFO - Validation successful
+2026-04-25 16:36:29,109 - INFO - Generated HTML: output/html/members.html
+2026-04-25 16:36:29,109 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 16:36:29,110 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 16:36:29,111 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 16:36:29,112 - INFO - Generated HTML: output/html/facilities.html
+2026-04-25 16:36:29,113 - INFO - Generated HTML: output/html/bookings.html
+2026-04-25 16:36:29,113 - INFO - Generated JSON: output/json/members.json
+2026-04-25 16:36:29,114 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 16:36:29,114 - INFO - Pipeline completed successfully
+2026-04-25 16:38:20,192 - INFO - Pipeline started
+2026-04-25 16:38:20,194 - INFO - Validation successful
+2026-04-25 16:38:20,195 - INFO - Generated HTML: output/html/members.html
+2026-04-25 16:38:20,196 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 16:38:20,197 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 16:38:20,198 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 16:38:20,201 - INFO - Generated HTML: output/html/facilities.html
+2026-04-25 16:38:20,205 - INFO - Generated HTML: output/html/bookings.html
+2026-04-25 16:38:20,207 - INFO - Generated JSON: output/json/members.json
+2026-04-25 16:38:20,211 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 16:38:20,212 - INFO - Pipeline completed successfully
+2026-04-25 17:03:44,113 - INFO - Pipeline started
+2026-04-25 17:03:44,114 - INFO - Validation successful
+2026-04-25 17:03:44,116 - INFO - Generated HTML: output/html/members.html
+2026-04-25 17:03:44,117 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 17:03:44,118 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 17:03:44,118 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 17:03:44,119 - INFO - Generated HTML: output/html/facilities.html
+2026-04-25 17:03:44,120 - INFO - Generated HTML: output/html/bookings.html
+2026-04-25 17:03:44,121 - INFO - Generated JSON: output/json/members.json
+2026-04-25 17:03:44,122 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 17:03:44,122 - INFO - Pipeline completed successfully
+2026-04-25 17:12:05,776 - INFO - Pipeline started
+2026-04-25 17:12:05,777 - INFO - Validation successful
+2026-04-25 17:12:05,779 - INFO - Generated HTML: output/html/members.html
+2026-04-25 17:12:05,781 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 17:12:05,782 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 17:12:05,783 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 17:12:05,784 - INFO - Generated HTML: output/html/facilities.html
+2026-04-25 17:12:05,785 - INFO - Generated HTML: output/html/bookings.html
+2026-04-25 17:12:05,786 - INFO - Generated JSON: output/json/members.json
+2026-04-25 17:12:05,788 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 17:12:05,788 - INFO - Pipeline completed successfully
+2026-04-25 17:23:22,361 - INFO - Pipeline started
+2026-04-25 17:23:22,363 - INFO - Validation successful
+2026-04-25 17:23:22,364 - INFO - Generated HTML: output/html/members.html
+2026-04-25 17:23:22,365 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 17:23:22,366 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 17:23:22,367 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 17:23:22,367 - INFO - Generated HTML: output/html/facilities.html
+2026-04-25 17:23:22,368 - INFO - Generated HTML: output/html/bookings.html
+2026-04-25 17:23:22,369 - INFO - Generated HTML: output/html/dashboard.html
+2026-04-25 17:23:22,370 - INFO - Generated JSON: output/json/members.json
+2026-04-25 17:23:22,370 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 17:23:22,370 - INFO - Pipeline completed successfully
+2026-04-25 17:26:07,816 - INFO - Pipeline started
+2026-04-25 17:26:07,817 - INFO - Validation successful
+2026-04-25 17:26:07,819 - INFO - Generated HTML: output/html/members.html
+2026-04-25 17:26:07,819 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 17:26:07,820 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 17:26:07,821 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 17:26:07,822 - INFO - Generated HTML: output/html/facilities.html
+2026-04-25 17:26:07,823 - INFO - Generated HTML: output/html/bookings.html
+2026-04-25 17:26:07,824 - INFO - Generated HTML: output/html/dashboard.html
+2026-04-25 17:26:07,825 - INFO - Generated JSON: output/json/members.json
+2026-04-25 17:26:07,826 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 17:26:07,826 - INFO - Pipeline completed successfully
+2026-04-25 17:32:20,716 - INFO - Pipeline started
+2026-04-25 17:32:20,717 - INFO - Validation successful
+2026-04-25 17:32:20,719 - INFO - Generated HTML: output/html/members.html
+2026-04-25 17:32:20,719 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 17:32:20,720 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 17:32:20,721 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 17:32:20,722 - INFO - Generated HTML: output/html/facilities.html
+2026-04-25 17:32:20,723 - INFO - Generated HTML: output/html/bookings.html
+2026-04-25 17:32:20,724 - INFO - Generated HTML: output/html/dashboard.html
+2026-04-25 17:32:20,724 - INFO - Generated JSON: output/json/members.json
+2026-04-25 17:32:20,725 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 17:32:20,725 - INFO - Pipeline completed successfully
+2026-04-25 17:39:37,180 - INFO - Pipeline started
+2026-04-25 17:39:37,181 - ERROR - Pipeline failed: file:/C:/Users/duttr/xml-data-pipeline/data/club.xml:38:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'coach': This element is not expected. Expected is ( teams ).
+2026-04-25 17:39:42,409 - INFO - Pipeline started
+2026-04-25 17:39:42,411 - ERROR - Pipeline failed: file:/C:/Users/duttr/xml-data-pipeline/data/club.xml:38:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'coach': This element is not expected. Expected is ( teams ).
+2026-04-25 17:42:54,351 - INFO - Pipeline started
+2026-04-25 17:42:54,353 - ERROR - Pipeline failed: file:/C:/Users/duttr/xml-data-pipeline/data/club.xml:50:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'wins': This element is not expected.
+file:/C:/Users/duttr/xml-data-pipeline/data/club.xml:58:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'wins': This element is not expected.
+file:/C:/Users/duttr/xml-data-pipeline/data/club.xml:66:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'wins': This element is not expected.
+file:/C:/Users/duttr/xml-data-pipeline/data/club.xml:74:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'wins': This element is not expected.
+2026-04-25 17:46:28,839 - INFO - Pipeline started
+2026-04-25 17:46:28,841 - INFO - Validation successful
+2026-04-25 17:46:28,842 - INFO - Generated HTML: output/html/members.html
+2026-04-25 17:46:28,843 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 17:46:28,844 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 17:46:28,845 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 17:46:28,846 - INFO - Generated HTML: output/html/facilities.html
+2026-04-25 17:46:28,846 - INFO - Generated HTML: output/html/bookings.html
+2026-04-25 17:46:28,847 - INFO - Generated HTML: output/html/dashboard.html
+2026-04-25 17:46:28,848 - INFO - Generated JSON: output/json/members.json
+2026-04-25 17:46:28,849 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 17:46:28,849 - INFO - Pipeline completed successfully
+2026-04-25 17:50:16,820 - INFO - Pipeline started
+2026-04-25 17:50:16,822 - ERROR - Pipeline failed: file:/C:/Users/duttr/xml-data-pipeline/data/club.xml:114:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'teamRef': This element is not expected. Expected is ( facilityRef ).
+file:/C:/Users/duttr/xml-data-pipeline/data/club.xml:120:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'teamRef': This element is not expected. Expected is ( facilityRef ).
+file:/C:/Users/duttr/xml-data-pipeline/data/club.xml:126:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'teamRef': This element is not expected. Expected is ( facilityRef ).
+file:/C:/Users/duttr/xml-data-pipeline/data/club.xml:132:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'teamRef': This element is not expected. Expected is ( facilityRef ).
+2026-04-25 17:52:34,400 - INFO - Pipeline started
+2026-04-25 17:52:34,401 - INFO - Validation successful
+2026-04-25 17:52:34,402 - INFO - Generated HTML: output/html/members.html
+2026-04-25 17:52:34,403 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 17:52:34,404 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 17:52:34,405 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 17:52:34,405 - INFO - Generated HTML: output/html/facilities.html
+2026-04-25 17:52:34,406 - INFO - Generated HTML: output/html/bookings.html
+2026-04-25 17:52:34,407 - INFO - Generated HTML: output/html/dashboard.html
+2026-04-25 17:52:34,408 - INFO - Generated JSON: output/json/members.json
+2026-04-25 17:52:34,409 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 17:52:34,409 - INFO - Pipeline completed successfully
+2026-04-25 17:59:57,087 - INFO - Pipeline started
+2026-04-25 17:59:57,089 - ERROR - Pipeline failed: file:/C:/Users/duttr/xml-data-pipeline/data/club.xml:23:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'member': This element is not expected. Expected is ( coaches ).
+2026-04-25 18:02:24,541 - INFO - Pipeline started
+2026-04-25 18:02:24,542 - INFO - Validation successful
+2026-04-25 18:02:24,543 - INFO - Generated HTML: output/html/members.html
+2026-04-25 18:02:24,544 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 18:02:24,545 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 18:02:24,546 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 18:02:24,547 - INFO - Generated HTML: output/html/facilities.html
+2026-04-25 18:02:24,548 - INFO - Generated HTML: output/html/bookings.html
+2026-04-25 18:02:24,549 - INFO - Generated HTML: output/html/dashboard.html
+2026-04-25 18:02:24,550 - INFO - Generated JSON: output/json/members.json
+2026-04-25 18:02:24,550 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 18:02:24,550 - INFO - Pipeline completed successfully
+2026-04-25 18:10:07,930 - INFO - Pipeline started
+2026-04-25 18:10:07,932 - INFO - Validation successful
+2026-04-25 18:10:07,933 - INFO - Generated HTML: output/html/members.html
+2026-04-25 18:10:07,934 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 18:10:07,935 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 18:10:07,935 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 18:10:07,936 - INFO - Generated HTML: output/html/facilities.html
+2026-04-25 18:10:07,937 - INFO - Generated HTML: output/html/bookings.html
+2026-04-25 18:10:07,938 - INFO - Generated HTML: output/html/dashboard.html
+2026-04-25 18:10:07,939 - INFO - Generated JSON: output/json/members.json
+2026-04-25 18:10:07,940 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 18:10:07,940 - INFO - Pipeline completed successfully
+2026-04-25 18:17:12,676 - INFO - Pipeline started
+2026-04-25 18:17:12,677 - INFO - Validation successful
+2026-04-25 18:17:12,679 - INFO - Generated HTML: output/html/members.html
+2026-04-25 18:17:12,679 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 18:17:12,680 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 18:17:12,681 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 18:17:12,682 - INFO - Generated HTML: output/html/facilities.html
+2026-04-25 18:17:12,683 - INFO - Generated HTML: output/html/bookings.html
+2026-04-25 18:17:12,684 - INFO - Generated HTML: output/html/dashboard.html
+2026-04-25 18:17:12,685 - INFO - Generated JSON: output/json/members.json
+2026-04-25 18:17:12,686 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 18:17:12,686 - INFO - Pipeline completed successfully
+2026-04-25 18:20:39,679 - INFO - Pipeline started
+2026-04-25 18:20:39,681 - INFO - Validation successful
+2026-04-25 18:20:39,682 - INFO - Generated HTML: output/html/members.html
+2026-04-25 18:20:39,683 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 18:20:39,684 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 18:20:39,685 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 18:20:39,686 - INFO - Generated HTML: output/html/facilities.html
+2026-04-25 18:20:39,686 - INFO - Generated HTML: output/html/bookings.html
+2026-04-25 18:20:39,687 - INFO - Generated HTML: output/html/dashboard.html
+2026-04-25 18:20:39,688 - INFO - Generated JSON: output/json/members.json
+2026-04-25 18:20:39,689 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 18:20:39,689 - INFO - Pipeline completed successfully
+2026-04-25 18:34:21,692 - INFO - Pipeline started
+2026-04-25 18:34:21,693 - ERROR - Pipeline failed: file:/C:/Users/duttr/xml-data-pipeline/data/club.xml:97:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'session': This element is not expected. Expected is ( facilities ).
+2026-04-25 18:36:54,976 - INFO - Pipeline started
+2026-04-25 18:36:54,978 - INFO - Validation successful
+2026-04-25 18:36:54,979 - INFO - Generated HTML: output/html/members.html
+2026-04-25 18:36:54,980 - INFO - Generated HTML: output/html/coaches.html
+2026-04-25 18:36:54,981 - INFO - Generated HTML: output/html/teams.html
+2026-04-25 18:36:54,981 - INFO - Generated HTML: output/html/sessions.html
+2026-04-25 18:36:54,982 - INFO - Generated HTML: output/html/facilities.html
+2026-04-25 18:36:54,983 - INFO - Generated HTML: output/html/bookings.html
+2026-04-25 18:36:54,985 - INFO - Generated HTML: output/html/dashboard.html
+2026-04-25 18:36:54,988 - INFO - Generated JSON: output/json/members.json
+2026-04-25 18:36:54,989 - INFO - Generated JSON: output/json/bookings.json
+2026-04-25 18:36:54,989 - INFO - Pipeline completed successfully

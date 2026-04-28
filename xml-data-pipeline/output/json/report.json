@@ -1,0 +1,14 @@
+{
+    "club": {
+        "members": [
+            {
+                "id": "M001",
+                "name": "John Doe"
+            },
+            {
+                "id": "M002",
+                "name": "Jane Smith"
+            }
+        ]
+    }
+}

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<club>
+
+    <!-- ================= MEMBERS ================= -->
+   <members>
+    <member id="P001">
+        <name>Rohit Sharma</name>
+        <age>37</age>
+    </member>
+
+    <member id="P002">
+        <name>Virat Kohli</name>
+        <age>36</age>
+    </member>
+
+    <member id="P003">
+        <name>MS Dhoni</name>
+        <age>43</age>
+    </member>
+
+    <member id="P004">
+        <name>Shreyas Iyer</name>
+        <age>30</age>
+    </member>
+</members>
+
+    <!-- ================= COACHES ================= -->
+    <coaches>
+        <coach id="C001">
+            <name>Stephen Fleming</name>
+        </coach>
+
+        <coach id="C002">
+            <name>Mahela Jayawardene</name>
+        </coach>
+
+        <coach id="C003">
+            <name>Andy Flower</name>
+        </coach>
+
+        <coach id="C004">
+            <name>Ricky Ponting</name>
+        </coach>
+    </coaches>
+
+    <!-- ================= TEAMS ================= -->
+    <teams>
+        <team id="T001">
+            <name>Chennai Super Kings</name>
+            <coachRef>C001</coachRef>
+            <wins>10</wins>
+            <losses>4</losses>
+            <points>20</points>
+        </team>
+
+        <team id="T002">
+            <name>Mumbai Indians</name>
+            <coachRef>C002</coachRef>
+            <wins>8</wins>
+            <losses>6</losses>
+            <points>16</points>
+        </team>
+
+        <team id="T003">
+            <name>Royal Challengers Bengaluru</name>
+            <coachRef>C003</coachRef>
+            <wins>9</wins>
+            <losses>5</losses>
+            <points>18</points>
+        </team>
+
+        <team id="T004">
+            <name>Punjab Kings</name>
+            <coachRef>C004</coachRef>
+            <wins>7</wins>
+            <losses>7</losses>
+            <points>14</points>
+        </team>
+    </teams>
+
+    <!-- ================= SESSIONS ================= -->
+   
+<sessions>
+    <session id="S001">
+        <sport>Cricket Training</sport>
+        <teamRef>T001</teamRef>
+        <coachRef>C001</coachRef>
+    </session>
+
+    <session id="S002">
+        <sport>Batting Practice</sport>
+        <teamRef>T002</teamRef>
+        <coachRef>C002</coachRef>
+    </session>
+
+    <session id="S003">
+        <sport>Bowling Practice</sport>
+        <teamRef>T003</teamRef>
+        <coachRef>C003</coachRef>
+    </session>
+
+    <session id="S004">
+        <sport>Fielding Training</sport>
+        <teamRef>T004</teamRef>
+        <coachRef>C004</coachRef>
+    </session>
+</sessions>
+
+    <!-- ================= FACILITIES ================= -->
+    <facilities>
+        <facility id="F001">
+            <name>Wankhede Stadium</name>
+            <type>Match Ground</type>
+        </facility>
+
+        <facility id="F002">
+            <name>M. Chinnaswamy Stadium</name>
+            <type>Match Ground</type>
+        </facility>
+
+        <facility id="F003">
+            <name>HPCA Stadium</name>
+            <type>Match Ground</type>
+        </facility>
+
+        <facility id="F004">
+            <name>M. A. Chidambaram Stadium</name>
+            <type>Match Ground</type>
+        </facility>
+    </facilities>
+
+    <!-- ================= BOOKINGS ================= -->
+    <bookings>
+        <booking id="B001">
+            <memberRef>P001</memberRef>
+            <teamRef>T001</teamRef>
+            <facilityRef>F001</facilityRef>
+        </booking>
+
+        <booking id="B002">
+            <memberRef>P002</memberRef>
+            <teamRef>T003</teamRef>
+            <facilityRef>F002</facilityRef>
+        </booking>
+
+           <booking id="B003">
+    <memberRef>P003</memberRef>
+    <teamRef>T002</teamRef>
+    <facilityRef>F004</facilityRef>
+</booking>     
+
+        <booking id="B004">
+            <memberRef>P004</memberRef>
+            <teamRef>T004</teamRef>
+            <facilityRef>F003</facilityRef>
+        </booking>
+    </bookings>
+
+</club>

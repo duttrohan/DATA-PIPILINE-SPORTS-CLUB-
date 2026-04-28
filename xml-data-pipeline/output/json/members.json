@@ -1,0 +1,22 @@
+{
+    "club": {
+        "members": [
+            {
+                "id": "P001",
+                "name": "Rohit Sharma"
+            },
+            {
+                "id": "P002",
+                "name": "Virat Kohli"
+            },
+            {
+                "id": "P003",
+                "name": "MS Dhoni"
+            },
+            {
+                "id": "P004",
+                "name": "Shreyas Iyer"
+            }
+        ]
+    }
+}

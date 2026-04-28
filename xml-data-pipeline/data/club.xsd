@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="club">
+        <xs:complexType>
+            <xs:sequence>
+
+                <!-- ================= MEMBERS ================= -->
+                <xs:element name="members">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="member" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string"/>
+                                        <xs:element name="age" type="xs:int"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- ================= COACHES ================= -->
+                <xs:element name="coaches">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="coach" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- ================= TEAMS (FIXED WITH IPL STATS) ================= -->
+                <xs:element name="teams">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="team" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string"/>
+                                        <xs:element name="coachRef" type="xs:string"/>
+
+                                        <!-- IPL PERFORMANCE DATA -->
+                                        <xs:element name="wins" type="xs:int" minOccurs="0"/>
+                                        <xs:element name="losses" type="xs:int" minOccurs="0"/>
+                                        <xs:element name="points" type="xs:int" minOccurs="0"/>
+
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- ================= SESSIONS ================= -->
+                <xs:element name="sessions">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="session" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="sport" type="xs:string"/>
+                                        <xs:element name="teamRef" type="xs:string"/>
+                                        <xs:element name="coachRef" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- ================= FACILITIES ================= -->
+                <xs:element name="facilities">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="facility" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string"/>
+                                        <xs:element name="type" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- ================= BOOKINGS ================= -->
+      <xs:element name="bookings">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="booking" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+
+                        <xs:element name="memberRef" type="xs:string"/>
+                        <xs:element name="teamRef" type="xs:string"/>
+                        <xs:element name="facilityRef" type="xs:string"/>
+
+                    </xs:sequence>
+                    <xs:attribute name="id" type="xs:string" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
