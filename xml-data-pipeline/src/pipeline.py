@@ -70,8 +70,7 @@ def main():
 
         # ---------- STEP 3: XML SCENARIOS ----------
         xml_scenarios = [
-            # ("scenario7_teams_xml.xsl", "teams.xml"),
-            # ("scenario8_sessions_xml.xsl", "sessions.xml"),
+            # Add XML-only scenarios here if needed
         ]
 
         for xslt_name, output_name in xml_scenarios:
@@ -98,6 +97,42 @@ def main():
         for output_file in json_scenarios:
             json_exporter.xml_to_json(XML_FILE, output_file)
             logger.info(f"Generated JSON: {output_file}")
+
+        # ============================================================
+        # STEP 5: USER STORY TRANSFORMATIONS (NEW)
+        # ============================================================
+
+        # ---------- USER STORY 1: Sessions by Coach ----------
+        try:
+            xslt_file = os.path.join(XSLT_DIR, "sessions_by_coach.xsl")
+            output_file = os.path.join(OUTPUT_DIR, "xml", "sessions_by_coach.xml")
+
+            if os.path.exists(xslt_file):
+                transformer = XSLTTransformer(xslt_file)
+                transformer.transform_file(XML_FILE, output_file, params={"coachId": "C002"})
+                logger.info(f"Generated User Story 1 XML: {output_file}")
+            else:
+                logger.error("Missing XSLT: sessions_by_coach.xsl")
+
+        except Exception as e:
+            logger.error(f"User Story 1 failed: {e}")
+
+        # ---------- USER STORY 2: Free Facilities by Date ----------
+        try:
+            xslt_file = os.path.join(XSLT_DIR, "free_facilities.xsl")
+            output_file = os.path.join(OUTPUT_DIR, "xml", "free_facilities.xml")
+
+            if os.path.exists(xslt_file):
+                transformer = XSLTTransformer(xslt_file)
+                transformer.transform_file(XML_FILE, output_file, params={"date": "2026-05-03"})
+                logger.info(f"Generated User Story 2 XML: {output_file}")
+            else:
+                logger.error("Missing XSLT: free_facilities.xsl")
+
+        except Exception as e:
+            logger.error(f"User Story 2 failed: {e}")
+
+        # ============================================================
 
         logger.info("Pipeline completed successfully")
 

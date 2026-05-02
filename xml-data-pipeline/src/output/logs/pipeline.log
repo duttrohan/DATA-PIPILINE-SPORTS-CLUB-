@@ -26,3 +26,31 @@
 2026-04-30 21:37:32,655 - INFO - Generated JSON: C:\Users\duttr\xml-data-pipeline\output\json\members.json
 2026-04-30 21:37:32,657 - INFO - Generated JSON: C:\Users\duttr\xml-data-pipeline\output\json\bookings.json
 2026-04-30 21:37:32,657 - INFO - Pipeline completed successfully
+2026-05-02 12:40:53,504 - INFO - Pipeline started
+2026-05-02 12:40:53,517 - INFO - Validation successful
+2026-05-02 12:40:53,522 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\members.html
+2026-05-02 12:40:53,524 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\coaches.html
+2026-05-02 12:40:53,526 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\teams.html
+2026-05-02 12:40:53,529 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\sessions.html
+2026-05-02 12:40:53,531 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\facilities.html
+2026-05-02 12:40:53,534 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\bookings.html
+2026-05-02 12:40:53,536 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\dashboard.html
+2026-05-02 12:40:53,539 - INFO - Generated JSON: C:\Users\duttr\xml-data-pipeline\output\json\members.json
+2026-05-02 12:40:53,541 - INFO - Generated JSON: C:\Users\duttr\xml-data-pipeline\output\json\bookings.json
+2026-05-02 12:40:53,542 - ERROR - User Story 1 failed: XSLTTransformer.transform_file() got an unexpected keyword argument 'params'
+2026-05-02 12:40:53,544 - ERROR - User Story 2 failed: XSLTTransformer.transform_file() got an unexpected keyword argument 'params'
+2026-05-02 12:40:53,544 - INFO - Pipeline completed successfully
+2026-05-02 12:43:02,837 - INFO - Pipeline started
+2026-05-02 12:43:02,841 - INFO - Validation successful
+2026-05-02 12:43:02,845 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\members.html
+2026-05-02 12:43:02,847 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\coaches.html
+2026-05-02 12:43:02,849 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\teams.html
+2026-05-02 12:43:02,853 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\sessions.html
+2026-05-02 12:43:02,855 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\facilities.html
+2026-05-02 12:43:02,857 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\bookings.html
+2026-05-02 12:43:02,860 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\dashboard.html
+2026-05-02 12:43:02,862 - INFO - Generated JSON: C:\Users\duttr\xml-data-pipeline\output\json\members.json
+2026-05-02 12:43:02,864 - INFO - Generated JSON: C:\Users\duttr\xml-data-pipeline\output\json\bookings.json
+2026-05-02 12:43:02,867 - INFO - Generated User Story 1 XML: C:\Users\duttr\xml-data-pipeline\output\xml\sessions_by_coach.xml
+2026-05-02 12:43:02,871 - INFO - Generated User Story 2 XML: C:\Users\duttr\xml-data-pipeline\output\xml\free_facilities.xml
+2026-05-02 12:43:02,871 - INFO - Pipeline completed successfully

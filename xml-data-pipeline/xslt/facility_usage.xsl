@@ -4,6 +4,16 @@
 
     <xsl:output method="xml" indent="yes"/>
 
+<!--
+    facility_usage.xsl
+    ROHAN — 30 April 2026
+
+    This stylesheet focuses on how each facility is used. It lists the
+    sessions happening in each location so you can quickly understand
+    which facilities are busy and when.
+-->
+
+
     <xsl:template match="/club">
         <facilityUsage>
             <xsl:apply-templates select="facilities/facility"/>

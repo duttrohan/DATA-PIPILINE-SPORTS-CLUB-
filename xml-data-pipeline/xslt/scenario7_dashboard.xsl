@@ -10,11 +10,14 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:output method="html" indent="yes"/>
 
-<!--  29/04/26 rohan-d
-Scenario 7: Dashboard Report
-This XSLT creates a combined dashboard view showing
-team performance statistics and booking details in one report.
+<!--
+    scenario7_dashboard.xsl
+    Author: ROHAN — 02 May 2026
+
+    Scenario 7 transformation. This stylesheet builds a dashboard‑style
+    summary combining key information from the club database.
 -->
+
 
 <xsl:template match="/">
 

@@ -4,6 +4,16 @@
 
     <xsl:output method="xml" indent="yes"/>
 
+<!--
+    team_summary.xsl
+    ROHAN — 30 April 2026
+
+    This stylesheet creates a simple summary of each team in the club.
+    It pulls together the team name, its members, and the coach so the
+    information is easier to read than in the full database.
+-->
+
+
     <!-- Match club anywhere -->
     <xsl:template match="club">
         <teamSummary>

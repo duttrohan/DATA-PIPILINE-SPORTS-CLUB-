@@ -5,11 +5,14 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:output method="html" indent="yes"/>
 
-<!-- 29/04/26 rohan-d
-Scenario 6: Bookings Report
-This XSLT generates booking details by joining players,
-teams, and facilities using references from the XML data.
+<!--
+    scenario6_bookings.xsl
+    Author: ROHAN — 02 May 2026
+
+    Scenario 6 transformation. This stylesheet focuses on bookings and
+    organizes them into a clear, readable structure.
 -->
+
 
 <xsl:template match="/">
 

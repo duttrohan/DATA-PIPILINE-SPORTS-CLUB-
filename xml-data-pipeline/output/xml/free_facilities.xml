@@ -1,0 +1,14 @@
+<freeFacilities date="2026-05-03">
+  <facility id="F001">
+    <name>Wankhede Stadium</name>
+  </facility>
+  <facility id="F002">
+    <name>M. Chinnaswamy Stadium</name>
+  </facility>
+  <facility id="F003">
+    <name>HPCA Stadium</name>
+  </facility>
+  <facility id="F004">
+    <name>M. A. Chidambaram Stadium</name>
+  </facility>
+</freeFacilities>

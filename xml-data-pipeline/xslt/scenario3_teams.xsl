@@ -5,10 +5,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:output method="html" indent="yes"/>
 
-<!-- 29/04/26 rohan-d
-Scenario 3: Teams Report
-This XSLT generates a report of all IPL teams including
-team name, coach, wins, losses, and total points.
+<!--
+    scenario3_teams.xsl
+    Author: Dutt — 02 May 2026
+
+    Scenario 3 transformation. This stylesheet extracts team information
+    and organizes it into a clean, structured output.
 -->
 
 <xsl:template match="/">

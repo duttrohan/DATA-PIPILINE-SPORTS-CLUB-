@@ -4,6 +4,16 @@
 
     <xsl:output method="xml" indent="yes"/>
 
+<!--
+    team_performance.xsl
+    ROHAN — 30 April 2026
+
+    This stylesheet creates a performance‑oriented view of each team.
+    It reorganizes the team and session information into a format that
+    could be used for reporting or analytics.
+-->
+
+
     <xsl:template match="/club">
         <teamPerformance>
             <xsl:for-each select="teams/team">

@@ -4,6 +4,16 @@
 
     <xsl:output method="text" indent="no"/>
 
+<!--
+    members_json.xsl
+    ROHAN— 30 April 2026
+
+    This stylesheet converts the member information into a JSON‑style
+    structure. It's meant to show how the same XML data can be reshaped
+    for systems that expect JSON-like output.
+-->
+
+
     <xsl:template match="/club">
         {
           "members": [

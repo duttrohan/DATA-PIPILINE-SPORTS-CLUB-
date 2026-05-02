@@ -5,11 +5,13 @@
 
     <xsl:output method="html" indent="yes"/>
 
-    <!-- 29/04/26 rohan-d
-    Scenario 1: Members Report
-    This XSLT transforms the XML dataset to display all IPL players (members)
-    including their ID, name, and age in a structured HTML table format.
-    -->
+<!--
+    scenario1.xsl
+    Author: ROHAN — 02 May 2026
+
+    Scenario 1 transformation. This stylesheet extracts a specific slice
+    of the club data to demonstrate how targeted XML views can be created.
+-->
 
     <xsl:template match="/">
 

@@ -8,15 +8,23 @@ class XSLTTransformer:
             xslt_doc = etree.parse(f)
         self.transform = etree.XSLT(xslt_doc)
 
-    def transform_file(self, xml_path: str, output_path: str):
+    def transform_file(self, xml_path: str, output_path: str, params=None):
 
-        # 🔥 AUTO-CREATE OUTPUT DIRECTORY
+        # Auto-create output directory
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
         with open(xml_path, "rb") as f:
             xml_doc = etree.parse(f)
 
-        result = self.transform(xml_doc)
+        # Convert Python dict → XSLT parameters
+        xslt_params = {}
+        if params:
+            for key, value in params.items():
+                xslt_params[key] = etree.XSLT.strparam(value)
 
+        # Apply transformation with parameters (if any)
+        result = self.transform(xml_doc, **xslt_params)
+
+        # Save output
         with open(output_path, "wb") as f:
-            f.write(str(result).encode("utf-8"))
+            f.write(etree.tostring(result, pretty_print=True))
