@@ -14,9 +14,41 @@
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="name" type="xs:string"/>
-                                        <xs:element name="age" type="xs:int"/>
+
+                                        <!-- age 5–100 -->
+                                        <xs:element name="age">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:int">
+                                                    <xs:minInclusive value="15"/>
+                                                    <xs:maxInclusive value="70"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+
+                                        <xs:element name="email" type="xs:string"/>
+
+                                        <!-- membershipType enumeration -->
+                                        <xs:element name="membershipType">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="Standard"/>
+                                                    <xs:enumeration value="Premium"/>
+                                                    <xs:enumeration value="Elite"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+
+                                        <xs:element name="joinDate" type="xs:date"/>
                                     </xs:sequence>
-                                    <xs:attribute name="id" type="xs:string" use="required"/>
+
+                                    <!-- Member ID pattern P001 -->
+                                    <xs:attribute name="id" use="required">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:pattern value="P[0-9]{3}"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -31,15 +63,35 @@
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="name" type="xs:string"/>
+
+                                        <!-- experienceYears 1–50 -->
+                                        <xs:element name="experienceYears">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:int">
+                                                    <xs:minInclusive value="1"/>
+                                                    <xs:maxInclusive value="50"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+
+                                        <xs:element name="specialty" type="xs:string"/>
                                     </xs:sequence>
-                                    <xs:attribute name="id" type="xs:string" use="required"/>
+
+                                    <!-- Coach ID pattern C001 -->
+                                    <xs:attribute name="id" use="required">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:pattern value="C[0-9]{3}"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
 
-                <!-- ================= TEAMS (FIXED WITH IPL STATS) ================= -->
+                <!-- ================= TEAMS ================= -->
                 <xs:element name="teams">
                     <xs:complexType>
                         <xs:sequence>
@@ -54,8 +106,18 @@
                                         <xs:element name="losses" type="xs:int" minOccurs="0"/>
                                         <xs:element name="points" type="xs:int" minOccurs="0"/>
 
+                                        <xs:element name="homeCity" type="xs:string"/>
+                                        <xs:element name="foundedYear" type="xs:gYear"/>
                                     </xs:sequence>
-                                    <xs:attribute name="id" type="xs:string" use="required"/>
+
+                                    <!-- Team ID pattern T001 -->
+                                    <xs:attribute name="id" use="required">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:pattern value="T[0-9]{3}"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -72,8 +134,27 @@
                                         <xs:element name="sport" type="xs:string"/>
                                         <xs:element name="teamRef" type="xs:string"/>
                                         <xs:element name="coachRef" type="xs:string"/>
+                                        <xs:element name="date" type="xs:date"/>
+
+                                        <!-- duration 30–300 minutes -->
+                                        <xs:element name="duration">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:int">
+                                                    <xs:minInclusive value="30"/>
+                                                    <xs:maxInclusive value="300"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
                                     </xs:sequence>
-                                    <xs:attribute name="id" type="xs:string" use="required"/>
+
+                                    <!-- Session ID pattern S001 -->
+                                    <xs:attribute name="id" use="required">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:pattern value="S[0-9]{3}"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -88,9 +169,39 @@
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="name" type="xs:string"/>
-                                        <xs:element name="type" type="xs:string"/>
+
+                                        <!-- facility type enumeration -->
+                                        <xs:element name="type">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="Match Ground"/>
+                                                    <xs:enumeration value="Training Ground"/>
+                                                    <xs:enumeration value="Indoor Facility"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+
+                                        <!-- capacity 10,000–100,000 -->
+                                        <xs:element name="capacity">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:int">
+                                                    <xs:minInclusive value="10000"/>
+                                                    <xs:maxInclusive value="100000"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+
+                                        <xs:element name="location" type="xs:string"/>
                                     </xs:sequence>
-                                    <xs:attribute name="id" type="xs:string" use="required"/>
+
+                                    <!-- Facility ID pattern F001 -->
+                                    <xs:attribute name="id" use="required">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:pattern value="F[0-9]{3}"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -98,27 +209,90 @@
                 </xs:element>
 
                 <!-- ================= BOOKINGS ================= -->
-      <xs:element name="bookings">
-    <xs:complexType>
-        <xs:sequence>
-            <xs:element name="booking" maxOccurs="unbounded">
-                <xs:complexType>
-                    <xs:sequence>
+                <xs:element name="bookings">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="booking" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="memberRef" type="xs:string"/>
+                                        <xs:element name="teamRef" type="xs:string"/>
+                                        <xs:element name="facilityRef" type="xs:string"/>
+                                    </xs:sequence>
 
-                        <xs:element name="memberRef" type="xs:string"/>
-                        <xs:element name="teamRef" type="xs:string"/>
-                        <xs:element name="facilityRef" type="xs:string"/>
-
-                    </xs:sequence>
-                    <xs:attribute name="id" type="xs:string" use="required"/>
-                </xs:complexType>
-            </xs:element>
-        </xs:sequence>
-    </xs:complexType>
-</xs:element>
+                                    <!-- Booking ID pattern B001 -->
+                                    <xs:attribute name="id" use="required">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:pattern value="B[0-9]{3}"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
 
             </xs:sequence>
         </xs:complexType>
+
+        <!-- ========= KEYS, KEYREFS, UNIQUENESS (REFERENTIAL INTEGRITY) ========= -->
+
+        <!-- Member IDs -->
+        <xs:key name="memberKey">
+            <xs:selector xpath="members/member"/>
+            <xs:field xpath="@id"/>
+        </xs:key>
+
+        <!-- Unique member email -->
+        <xs:unique name="uniqueMemberEmail">
+            <xs:selector xpath="members/member"/>
+            <xs:field xpath="email"/>
+        </xs:unique>
+
+        <!-- Coach IDs -->
+        <xs:key name="coachKey">
+            <xs:selector xpath="coaches/coach"/>
+            <xs:field xpath="@id"/>
+        </xs:key>
+
+        <!-- Team IDs -->
+        <xs:key name="teamKey">
+            <xs:selector xpath="teams/team"/>
+            <xs:field xpath="@id"/>
+        </xs:key>
+
+        <!-- Facility IDs -->
+        <xs:key name="facilityKey">
+            <xs:selector xpath="facilities/facility"/>
+            <xs:field xpath="@id"/>
+        </xs:key>
+
+        <!-- Booking memberRef → member -->
+        <xs:keyref name="memberRefCheck" refer="memberKey">
+            <xs:selector xpath="bookings/booking"/>
+            <xs:field xpath="memberRef"/>
+        </xs:keyref>
+
+        <!-- Booking teamRef → team -->
+        <xs:keyref name="teamRefCheck" refer="teamKey">
+            <xs:selector xpath="bookings/booking"/>
+            <xs:field xpath="teamRef"/>
+        </xs:keyref>
+
+        <!-- Booking facilityRef → facility -->
+        <xs:keyref name="facilityRefCheck" refer="facilityKey">
+            <xs:selector xpath="bookings/booking"/>
+            <xs:field xpath="facilityRef"/>
+        </xs:keyref>
+
+        <!-- Team coachRef → coach -->
+        <xs:keyref name="coachRefCheck" refer="coachKey">
+            <xs:selector xpath="teams/team"/>
+            <xs:field xpath="coachRef"/>
+        </xs:keyref>
+
     </xs:element>
 
 </xs:schema>

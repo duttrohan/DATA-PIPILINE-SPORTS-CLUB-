@@ -10,6 +10,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:output method="html" indent="yes"/>
 
+<!--  29/04/26 rohan-d
+Scenario 7: Dashboard Report
+This XSLT creates a combined dashboard view showing
+team performance statistics and booking details in one report.
+-->
+
 <xsl:template match="/">
 
 <html>

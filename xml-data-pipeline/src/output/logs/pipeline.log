@@ -1,0 +1,28 @@
+2026-04-30 13:07:55,008 - INFO - Pipeline started
+2026-04-30 13:07:55,009 - ERROR - Pipeline failed: [Errno 2] No such file or directory: 'data/club.xsd'
+2026-04-30 13:14:42,448 - INFO - Pipeline started
+2026-04-30 13:14:42,455 - INFO - Validation successful
+2026-04-30 13:14:42,460 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\members.html
+2026-04-30 13:14:42,464 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\coaches.html
+2026-04-30 13:14:42,468 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\teams.html
+2026-04-30 13:14:42,470 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\sessions.html
+2026-04-30 13:14:42,472 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\facilities.html
+2026-04-30 13:14:42,475 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\bookings.html
+2026-04-30 13:14:42,477 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\dashboard.html
+2026-04-30 13:14:42,483 - INFO - Generated JSON: C:\Users\duttr\xml-data-pipeline\output\json\members.json
+2026-04-30 13:14:42,485 - INFO - Generated JSON: C:\Users\duttr\xml-data-pipeline\output\json\bookings.json
+2026-04-30 13:14:42,485 - INFO - Pipeline completed successfully
+2026-04-30 21:05:10,068 - INFO - Pipeline started
+2026-04-30 21:05:10,094 - ERROR - Pipeline failed: file:/C:/Users/duttr/xml-data-pipeline/data/club.xml:25:0:ERROR:SCHEMASV:SCHEMAV_CVC_MAXINCLUSIVE_VALID: Element 'age': [facet 'maxInclusive'] The value '43' is greater than the maximum value allowed ('40').
+2026-04-30 21:37:32,633 - INFO - Pipeline started
+2026-04-30 21:37:32,635 - INFO - Validation successful
+2026-04-30 21:37:32,642 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\members.html
+2026-04-30 21:37:32,643 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\coaches.html
+2026-04-30 21:37:32,644 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\teams.html
+2026-04-30 21:37:32,646 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\sessions.html
+2026-04-30 21:37:32,647 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\facilities.html
+2026-04-30 21:37:32,648 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\bookings.html
+2026-04-30 21:37:32,650 - INFO - Generated HTML: C:\Users\duttr\xml-data-pipeline\output\html\dashboard.html
+2026-04-30 21:37:32,655 - INFO - Generated JSON: C:\Users\duttr\xml-data-pipeline\output\json\members.json
+2026-04-30 21:37:32,657 - INFO - Generated JSON: C:\Users\duttr\xml-data-pipeline\output\json\bookings.json
+2026-04-30 21:37:32,657 - INFO - Pipeline completed successfully

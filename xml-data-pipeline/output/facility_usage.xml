@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facilityUsage>
+   <facility id="F001">
+      <name>Wankhede Stadium</name>
+      <usedBy>
+         <team id="T002">Mumbai Indians</team>
+      </usedBy>
+   </facility>
+   <facility id="F002">
+      <name>M. Chinnaswamy Stadium</name>
+      <usedBy>
+         <team id="T003">Royal Challengers Bengaluru</team>
+      </usedBy>
+   </facility>
+   <facility id="F003">
+      <name>HPCA Stadium</name>
+      <usedBy>
+         <team id="T004">Punjab Kings</team>
+      </usedBy>
+   </facility>
+   <facility id="F004">
+      <name>M. A. Chidambaram Stadium</name>
+      <usedBy>
+         <team id="T001">Chennai Super Kings</team>
+      </usedBy>
+   </facility>
+</facilityUsage>

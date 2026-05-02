@@ -5,6 +5,12 @@
 
     <xsl:output method="html" indent="yes"/>
 
+    <!-- 29/04/26 rohan-d
+    Scenario 1: Members Report
+    This XSLT transforms the XML dataset to display all IPL players (members)
+    including their ID, name, and age in a structured HTML table format.
+    -->
+
     <xsl:template match="/">
 
         <html>
@@ -23,15 +29,12 @@
                     <th>Age</th>
                 </tr>
 
-                <!-- FIXED LOOP -->
                 <xsl:for-each select="club/members/member">
-
                     <tr>
                         <td><xsl:value-of select="@id"/></td>
                         <td><xsl:value-of select="name"/></td>
                         <td><xsl:value-of select="age"/></td>
                     </tr>
-
                 </xsl:for-each>
 
             </table>

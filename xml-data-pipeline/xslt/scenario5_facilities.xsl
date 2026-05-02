@@ -5,6 +5,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:output method="html" indent="yes"/>
 
+<!-- 29/04/26 rohan-d
+Scenario 5: Facilities Report
+This XSLT lists all available stadiums and facilities
+including their name and type in the system.
+-->
+
 <xsl:template match="/">
 
 <html>
