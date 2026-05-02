@@ -3,44 +3,64 @@
 <club>
 
     <!-- ================= MEMBERS ================= -->
-   <members>
-    <member id="P001">
-        <name>Rohit Sharma</name>
-        <age>37</age>
-    </member>
+    <members>
+        <member id="P001">
+            <name>Rohit Sharma</name>
+            <age>37</age>
+            <email>rohit.sharma@example.com</email>
+            <membershipType>Premium</membershipType>
+            <joinDate>2020-03-15</joinDate>
+        </member>
 
-    <member id="P002">
-        <name>Virat Kohli</name>
-        <age>36</age>
-    </member>
+        <member id="P002">
+            <name>Virat Kohli</name>
+            <age>36</age>
+            <email>virat.kohli@example.com</email>
+            <membershipType>Premium</membershipType>
+            <joinDate>2019-02-10</joinDate>
+        </member>
 
-    <member id="P003">
-        <name>MS Dhoni</name>
-        <age>43</age>
-    </member>
+        <member id="P003">
+            <name>MS Dhoni</name>
+            <age>43</age>
+            <email>ms.dhoni@example.com</email>
+            <membershipType>Elite</membershipType>
+            <joinDate>2018-01-20</joinDate>
+        </member>
 
-    <member id="P004">
-        <name>Shreyas Iyer</name>
-        <age>30</age>
-    </member>
-</members>
+        <member id="P004">
+            <name>Shreyas Iyer</name>
+            <age>30</age>
+            <email>shreyas.iyer@example.com</email>
+            <membershipType>Standard</membershipType>
+            <joinDate>2021-05-12</joinDate>
+        </member>
+    </members>
 
     <!-- ================= COACHES ================= -->
     <coaches>
         <coach id="C001">
             <name>Stephen Fleming</name>
+            <experienceYears>15</experienceYears>
+            <specialty>Strategy</specialty>
         </coach>
 
         <coach id="C002">
             <name>Mahela Jayawardene</name>
+            <experienceYears>12</experienceYears>
+            <specialty>Batting</specialty>
         </coach>
 
         <coach id="C003">
             <name>Andy Flower</name>
+            <experienceYears>14</experienceYears>
+            <specialty>Bowling</specialty>
         </coach>
 
         <coach id="C004">
             <name>Ricky Ponting</name>
+            <experienceYears>16</experienceYears>
+            <specialty>Fielding</specialty>
         </coach>
     </coaches>
 
@@ -52,6 +72,8 @@
             <wins>10</wins>
             <losses>4</losses>
             <points>20</points>
+            <homeCity>Chennai</homeCity>
+            <foundedYear>2008</foundedYear>
         </team>
 
         <team id="T002">
@@ -60,6 +82,8 @@
             <wins>8</wins>
             <losses>6</losses>
             <points>16</points>
+            <homeCity>Mumbai</homeCity>
+            <foundedYear>2008</foundedYear>
         </team>
 
         <team id="T003">
@@ -68,6 +92,8 @@
             <wins>9</wins>
             <losses>5</losses>
             <points>18</points>
+            <homeCity>Bengaluru</homeCity>
+            <foundedYear>2008</foundedYear>
         </team>
 
         <team id="T004">
@@ -76,66 +102,83 @@
             <wins>7</wins>
             <losses>7</losses>
             <points>14</points>
+            <homeCity>Mohali</homeCity>
+            <foundedYear>2008</foundedYear>
         </team>
     </teams>
 
     <!-- ================= SESSIONS ================= -->
-   
-<sessions>
-    <session id="S001">
-        <sport>Cricket Training</sport>
-        <teamRef>T001</teamRef>
-        <coachRef>C001</coachRef>
-    </session>
+    <sessions>
+        <session id="S001">
+            <sport>Cricket Training</sport>
+            <teamRef>T001</teamRef>
+            <coachRef>C001</coachRef>
+            <date>2024-04-12</date>
+            <duration>120</duration>
+        </session>
 
-    <session id="S002">
-        <sport>Batting Practice</sport>
-        <teamRef>T002</teamRef>
-        <coachRef>C002</coachRef>
-    </session>
+        <session id="S002">
+            <sport>Batting Practice</sport>
+            <teamRef>T002</teamRef>
+            <coachRef>C002</coachRef>
+            <date>2024-04-13</date>
+            <duration>90</duration>
+        </session>
 
-    <session id="S003">
-        <sport>Bowling Practice</sport>
-        <teamRef>T003</teamRef>
-        <coachRef>C003</coachRef>
-    </session>
+        <session id="S003">
+            <sport>Bowling Practice</sport>
+            <teamRef>T003</teamRef>
+            <coachRef>C003</coachRef>
+            <date>2024-04-14</date>
+            <duration>110</duration>
+        </session>
 
-    <session id="S004">
-        <sport>Fielding Training</sport>
-        <teamRef>T004</teamRef>
-        <coachRef>C004</coachRef>
-    </session>
-</sessions>
+        <session id="S004">
+            <sport>Fielding Training</sport>
+            <teamRef>T004</teamRef>
+            <coachRef>C004</coachRef>
+            <date>2024-04-15</date>
+            <duration>100</duration>
+        </session>
+    </sessions>
 
     <!-- ================= FACILITIES ================= -->
     <facilities>
         <facility id="F001">
             <name>Wankhede Stadium</name>
             <type>Match Ground</type>
+            <capacity>33000</capacity>
+            <location>Mumbai</location>
         </facility>
 
         <facility id="F002">
             <name>M. Chinnaswamy Stadium</name>
             <type>Match Ground</type>
+            <capacity>35000</capacity>
+            <location>Bengaluru</location>
         </facility>
 
         <facility id="F003">
             <name>HPCA Stadium</name>
             <type>Match Ground</type>
+            <capacity>25000</capacity>
+            <location>Dharamshala</location>
         </facility>
 
         <facility id="F004">
             <name>M. A. Chidambaram Stadium</name>
             <type>Match Ground</type>
+            <capacity>38000</capacity>
+            <location>Chennai</location>
         </facility>
     </facilities>
 
     <!-- ================= BOOKINGS ================= -->
     <bookings>
         <booking id="B001">
-            <memberRef>P001</memberRef>
+            <memberRef>P003</memberRef>
             <teamRef>T001</teamRef>
-            <facilityRef>F001</facilityRef>
+            <facilityRef>F004</facilityRef>
         </booking>
 
         <booking id="B002">
@@ -144,11 +187,11 @@
             <facilityRef>F002</facilityRef>
         </booking>
 
-           <booking id="B003">
-    <memberRef>P003</memberRef>
-    <teamRef>T002</teamRef>
-    <facilityRef>F004</facilityRef>
-</booking>     
+        <booking id="B003">
+            <memberRef>P001</memberRef>
+            <teamRef>T002</teamRef>
+            <facilityRef>F001</facilityRef>
+        </booking>
 
         <booking id="B004">
             <memberRef>P004</memberRef>

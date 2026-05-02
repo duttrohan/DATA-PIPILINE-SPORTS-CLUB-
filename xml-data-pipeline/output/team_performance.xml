@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamPerformance>
+   <team id="T001">
+      <name>Chennai Super Kings</name>
+      <coach>Stephen Fleming</coach>
+      <wins>10</wins>
+      <losses>4</losses>
+      <points>20</points>
+      <ratio>0.71</ratio>
+      <rank>Top Team</rank>
+   </team>
+   <team id="T003">
+      <name>Royal Challengers Bengaluru</name>
+      <coach>Andy Flower</coach>
+      <wins>9</wins>
+      <losses>5</losses>
+      <points>18</points>
+      <ratio>0.64</ratio>
+   </team>
+   <team id="T002">
+      <name>Mumbai Indians</name>
+      <coach>Mahela Jayawardene</coach>
+      <wins>8</wins>
+      <losses>6</losses>
+      <points>16</points>
+      <ratio>0.57</ratio>
+   </team>
+   <team id="T004">
+      <name>Punjab Kings</name>
+      <coach>Ricky Ponting</coach>
+      <wins>7</wins>
+      <losses>7</losses>
+      <points>14</points>
+      <ratio>0.50</ratio>
+   </team>
+</teamPerformance>

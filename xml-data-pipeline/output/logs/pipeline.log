@@ -294,3 +294,15 @@ file:/C:/Users/duttr/xml-data-pipeline/data/club.xml:132:0:ERROR:SCHEMASV:SCHEMA
 2026-04-25 18:36:54,988 - INFO - Generated JSON: output/json/members.json
 2026-04-25 18:36:54,989 - INFO - Generated JSON: output/json/bookings.json
 2026-04-25 18:36:54,989 - INFO - Pipeline completed successfully
+2026-04-29 14:17:33,544 - INFO - Pipeline started
+2026-04-29 14:17:33,552 - INFO - Validation successful
+2026-04-29 14:17:33,557 - INFO - Generated HTML: output/html/members.html
+2026-04-29 14:17:33,559 - INFO - Generated HTML: output/html/coaches.html
+2026-04-29 14:17:33,563 - INFO - Generated HTML: output/html/teams.html
+2026-04-29 14:17:33,576 - INFO - Generated HTML: output/html/sessions.html
+2026-04-29 14:17:33,579 - INFO - Generated HTML: output/html/facilities.html
+2026-04-29 14:17:33,583 - INFO - Generated HTML: output/html/bookings.html
+2026-04-29 14:17:33,589 - INFO - Generated HTML: output/html/dashboard.html
+2026-04-29 14:17:33,592 - INFO - Generated JSON: output/json/members.json
+2026-04-29 14:17:33,594 - INFO - Generated JSON: output/json/bookings.json
+2026-04-29 14:17:33,594 - INFO - Pipeline completed successfully

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamSummary>
+   <team>
+      <id>T001</id>
+      <name>Chennai Super Kings</name>
+      <coach>Stephen Fleming</coach>
+      <members>
+         <member>
+            <id>P003</id>
+            <name>MS Dhoni</name>
+         </member>
+      </members>
+   </team>
+   <team>
+      <id>T002</id>
+      <name>Mumbai Indians</name>
+      <coach>Mahela Jayawardene</coach>
+      <members>
+         <member>
+            <id>P001</id>
+            <name>Rohit Sharma</name>
+         </member>
+      </members>
+   </team>
+   <team>
+      <id>T003</id>
+      <name>Royal Challengers Bengaluru</name>
+      <coach>Andy Flower</coach>
+      <members>
+         <member>
+            <id>P002</id>
+            <name>Virat Kohli</name>
+         </member>
+      </members>
+   </team>
+   <team>
+      <id>T004</id>
+      <name>Punjab Kings</name>
+      <coach>Ricky Ponting</coach>
+      <members>
+         <member>
+            <id>P004</id>
+            <name>Shreyas Iyer</name>
+         </member>
+      </members>
+   </team>
+</teamSummary>

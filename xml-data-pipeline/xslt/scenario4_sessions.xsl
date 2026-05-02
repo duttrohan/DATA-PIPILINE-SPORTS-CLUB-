@@ -5,6 +5,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:output method="html" indent="yes"/>
 
+<!-- 29/04/26 rohan-d
+Scenario 4: Training Sessions Report
+This XSLT displays all training sessions including session ID,
+sport type, associated team, and coach details.
+-->
+
 <xsl:template match="/">
 
 <html>

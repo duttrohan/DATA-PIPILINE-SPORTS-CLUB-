@@ -4,6 +4,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:output method="html" indent="yes"/>
 
+<!-- 29/04/26 rohan-d
+Scenario 2: Coaches Report
+This XSLT displays all coaches with their IDs and names
+from the XML dataset in a structured HTML table.
+-->
+
 <xsl:template match="/">
 
 <html>
