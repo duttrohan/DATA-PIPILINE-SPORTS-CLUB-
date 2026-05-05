@@ -17,6 +17,7 @@
 
         <html>
         <head>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
             <title>IPL 2025 - Members Report</title>
         </head>
 

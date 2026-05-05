@@ -22,6 +22,13 @@ def ensure_dirs():
     os.makedirs(os.path.join(OUTPUT_DIR, "html"), exist_ok=True)
     os.makedirs(os.path.join(OUTPUT_DIR, "json"), exist_ok=True)
     os.makedirs(os.path.join(OUTPUT_DIR, "xml"), exist_ok=True)
+    os.makedirs(os.path.join(OUTPUT_DIR, "css"), exist_ok=True)
+
+    import shutil
+    style_src = os.path.join(BASE_DIR, "css", "styles.css")
+    style_dst = os.path.join(OUTPUT_DIR, "css", "styles.css")
+    if os.path.exists(style_src):
+        shutil.copy(style_src, style_dst)
 
 
 # ===================== MAIN PIPELINE =====================

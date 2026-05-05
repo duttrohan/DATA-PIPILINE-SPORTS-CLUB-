@@ -306,3 +306,45 @@ file:/C:/Users/duttr/xml-data-pipeline/data/club.xml:132:0:ERROR:SCHEMASV:SCHEMA
 2026-04-29 14:17:33,592 - INFO - Generated JSON: output/json/members.json
 2026-04-29 14:17:33,594 - INFO - Generated JSON: output/json/bookings.json
 2026-04-29 14:17:33,594 - INFO - Pipeline completed successfully
+2026-05-06 00:38:15,687 - INFO - Pipeline started
+2026-05-06 00:38:15,763 - INFO - Validation successful
+2026-05-06 00:38:15,786 - INFO - Generated HTML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\html\members.html
+2026-05-06 00:38:15,807 - INFO - Generated HTML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\html\coaches.html
+2026-05-06 00:38:15,832 - INFO - Generated HTML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\html\teams.html
+2026-05-06 00:38:15,855 - INFO - Generated HTML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\html\sessions.html
+2026-05-06 00:38:15,879 - INFO - Generated HTML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\html\facilities.html
+2026-05-06 00:38:15,899 - INFO - Generated HTML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\html\bookings.html
+2026-05-06 00:38:15,925 - INFO - Generated HTML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\html\dashboard.html
+2026-05-06 00:38:15,927 - INFO - Generated JSON: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\json\members.json
+2026-05-06 00:38:15,930 - INFO - Generated JSON: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\json\bookings.json
+2026-05-06 00:38:15,933 - INFO - Generated User Story 1 XML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\xml\sessions_by_coach.xml
+2026-05-06 00:38:15,935 - INFO - Generated User Story 2 XML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\xml\free_facilities.xml
+2026-05-06 00:38:15,935 - INFO - Pipeline completed successfully
+2026-05-06 00:45:26,887 - INFO - Pipeline started
+2026-05-06 00:45:26,910 - INFO - Validation successful
+2026-05-06 00:45:26,934 - INFO - Generated HTML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\html\members.html
+2026-05-06 00:45:26,954 - INFO - Generated HTML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\html\coaches.html
+2026-05-06 00:45:26,975 - INFO - Generated HTML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\html\teams.html
+2026-05-06 00:45:26,997 - INFO - Generated HTML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\html\sessions.html
+2026-05-06 00:45:27,022 - INFO - Generated HTML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\html\facilities.html
+2026-05-06 00:45:27,048 - INFO - Generated HTML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\html\bookings.html
+2026-05-06 00:45:27,071 - INFO - Generated HTML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\html\dashboard.html
+2026-05-06 00:45:27,073 - INFO - Generated JSON: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\json\members.json
+2026-05-06 00:45:27,075 - INFO - Generated JSON: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\json\bookings.json
+2026-05-06 00:45:27,078 - INFO - Generated User Story 1 XML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\xml\sessions_by_coach.xml
+2026-05-06 00:45:27,083 - INFO - Generated User Story 2 XML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\xml\free_facilities.xml
+2026-05-06 00:45:27,083 - INFO - Pipeline completed successfully
+2026-05-06 00:47:05,333 - INFO - Pipeline started
+2026-05-06 00:47:05,357 - INFO - Validation successful
+2026-05-06 00:47:05,361 - INFO - Generated HTML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\html\members.html
+2026-05-06 00:47:05,362 - INFO - Generated HTML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\html\coaches.html
+2026-05-06 00:47:05,365 - INFO - Generated HTML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\html\teams.html
+2026-05-06 00:47:05,368 - INFO - Generated HTML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\html\sessions.html
+2026-05-06 00:47:05,371 - INFO - Generated HTML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\html\facilities.html
+2026-05-06 00:47:05,374 - INFO - Generated HTML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\html\bookings.html
+2026-05-06 00:47:05,377 - INFO - Generated HTML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\html\dashboard.html
+2026-05-06 00:47:05,380 - INFO - Generated JSON: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\json\members.json
+2026-05-06 00:47:05,381 - INFO - Generated JSON: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\json\bookings.json
+2026-05-06 00:47:05,383 - INFO - Generated User Story 1 XML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\xml\sessions_by_coach.xml
+2026-05-06 00:47:05,385 - INFO - Generated User Story 2 XML: C:\Users\Naga vamshi\OneDrive\Desktop\data pipline project\DATA-PIPILINE-SPORTS-CLUB-\xml-data-pipeline\output\xml\free_facilities.xml
+2026-05-06 00:47:05,385 - INFO - Pipeline completed successfully

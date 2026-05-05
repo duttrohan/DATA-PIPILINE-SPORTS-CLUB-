@@ -18,6 +18,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
     <title>Bookings Report</title>
 </head>
 
